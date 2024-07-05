@@ -5,7 +5,7 @@ import os
 import cv2
 import torch
 import torch.nn.functional as F
-from torchvision.transforms.functional_tensor import rgb_to_grayscale
+from torchvision.transforms.functional import rgb_to_grayscale
 
 from basicsr.utils import imwrite, img2tensor, tensor2img
 from basicsr.utils.download_util import load_file_from_url
